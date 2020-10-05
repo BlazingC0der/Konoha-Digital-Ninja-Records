@@ -1,0 +1,31 @@
+@font-face{
+	font-family: "manga";
+	src:url("manga.ttf")
+}
+@font-face{
+	font-family: "kanji";
+	src:url("electroharmonix.ttf")
+}
+.ButtonStyle {
+	font-size: 4vh;
+	margin-top: 3%;
+	margin-left: 25%;
+	font-family: manga;
+	background-color: transparent;
+	border: none;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+	font-weight: bold;
+	color: #17bd17;
+	cursor: pointer;
+	width: 50%;
+}
+.ButtonStyle:hover {
+	color: #0fc73d62;
+	font-weight: bolder;
+	font-size: 5.5vh;
+	text-shadow: 2px 2px 8px rgb(61, 255, 2);
+}
+input:focus {
+	border-bottom: 5px solid #17bd17;
+}
